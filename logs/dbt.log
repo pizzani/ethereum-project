@@ -1,0 +1,105 @@
+[0m23:09:38.063905 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 23:09:38.084772 | e9db125f-c603-4794-bd37-5f8dbed2977c ==============================
+[0m23:09:38.084772 [info ] [MainThread]: Running with dbt=1.11.8
+[0m23:09:38.085296 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'send_anonymous_usage_stats': 'True', 'use_experimental_parser': 'False', 'static_parser': 'True', 'no_print': 'None', 'partial_parse': 'True', 'quiet': 'False', 'log_cache_events': 'False', 'cache_selected_only': 'False', 'write_json': 'True', 'introspect': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init eth', 'printer_width': '80', 'profiles_dir': '/Users/eduardopizzani/.dbt', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'empty': 'None', 'target_path': 'None', 'warn_error': 'None', 'use_colors': 'True', 'log_format': 'default', 'log_path': 'logs'}
+[0m23:09:38.095675 [debug] [MainThread]: Starter project path: /Users/eduardopizzani/Documents/Ethereum Project/venv/lib/python3.13/site-packages/dbt/include/starter_project
+[0m23:09:38.100326 [info ] [MainThread]: 
+Your new dbt project "eth" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:09:38.100523 [info ] [MainThread]: Setting up your profile.
+[0m23:09:48.898418 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m23:09:48.898695 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m23:09:48.898854 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m23:13:32.812355 [info ] [MainThread]: Profile eth written to /Users/eduardopizzani/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:13:32.870590 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 234.82878, "process_in_blocks": "0", "process_kernel_time": 0.244288, "process_mem_max_rss": "139345920", "process_out_blocks": "0", "process_user_time": 0.841011}
+[0m23:13:32.873189 [debug] [MainThread]: Command `dbt init` succeeded at 23:13:32.872929 after 234.83 seconds
+[0m23:13:32.874162 [debug] [MainThread]: Flushing usage events
+[0m23:13:56.087919 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 23:13:56.114779 | 3e463bc6-2c83-4051-a936-e0c3c3483fea ==============================
+[0m23:13:56.114779 [info ] [MainThread]: Running with dbt=1.11.8
+[0m23:13:56.115309 [debug] [MainThread]: running dbt with arguments {'log_path': 'logs', 'debug': 'False', 'target_path': 'None', 'version_check': 'True', 'fail_fast': 'False', 'static_parser': 'True', 'no_print': 'None', 'log_cache_events': 'False', 'invocation_command': 'dbt debug', 'introspect': 'True', 'cache_selected_only': 'False', 'send_anonymous_usage_stats': 'True', 'empty': 'None', 'warn_error': 'None', 'write_json': 'True', 'partial_parse': 'True', 'log_format': 'default', 'indirect_selection': 'eager', 'quiet': 'False', 'printer_width': '80', 'profiles_dir': '/Users/eduardopizzani/.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True', 'use_experimental_parser': 'False'}
+[0m23:13:56.124727 [info ] [MainThread]: dbt version: 1.11.8
+[0m23:13:56.124934 [info ] [MainThread]: python version: 3.13.1
+[0m23:13:56.125082 [info ] [MainThread]: python path: /Users/eduardopizzani/Documents/Ethereum Project/venv/bin/python3.13
+[0m23:13:56.125219 [info ] [MainThread]: os info: macOS-26.4-arm64-arm-64bit-Mach-O
+[0m23:13:56.369195 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m23:13:56.369482 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m23:13:56.369645 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m23:13:56.400380 [info ] [MainThread]: Using profiles dir at /Users/eduardopizzani/.dbt
+[0m23:13:56.400612 [info ] [MainThread]: Using profiles.yml file at /Users/eduardopizzani/.dbt/profiles.yml
+[0m23:13:56.400785 [info ] [MainThread]: Using dbt_project.yml file at /Users/eduardopizzani/Documents/Ethereum Project/dbt_project.yml
+[0m23:13:56.401195 [info ] [MainThread]: adapter type: snowflake
+[0m23:13:56.401374 [info ] [MainThread]: adapter version: 1.11.4
+[0m23:13:56.401524 [info ] [MainThread]: Configuration:
+[0m23:13:56.401657 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:13:56.401780 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m23:13:56.401899 [info ] [MainThread]: Required dependencies:
+[0m23:13:56.402067 [debug] [MainThread]: Executing "git --help"
+[0m23:13:56.422920 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:13:56.423500 [debug] [MainThread]: STDERR: "b''"
+[0m23:13:56.423707 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:13:56.423891 [info ] [MainThread]: Connection:
+[0m23:13:56.424145 [info ] [MainThread]:   account: AOGLJKY-JK78567
+[0m23:13:56.424297 [info ] [MainThread]:   user: EDUARDO
+[0m23:13:56.424428 [info ] [MainThread]:   database: DBT
+[0m23:13:56.424555 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m23:13:56.424674 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m23:13:56.424793 [info ] [MainThread]:   schema: DBT_LOPES
+[0m23:13:56.424910 [info ] [MainThread]:   authenticator: None
+[0m23:13:56.425025 [info ] [MainThread]:   oauth_client_id: None
+[0m23:13:56.425148 [info ] [MainThread]:   query_tag: None
+[0m23:13:56.425266 [info ] [MainThread]:   client_session_keep_alive: False
+[0m23:13:56.425384 [info ] [MainThread]:   host: None
+[0m23:13:56.425497 [info ] [MainThread]:   port: None
+[0m23:13:56.425614 [info ] [MainThread]:   proxy_host: None
+[0m23:13:56.425730 [info ] [MainThread]:   proxy_port: None
+[0m23:13:56.425846 [info ] [MainThread]:   protocol: None
+[0m23:13:56.425965 [info ] [MainThread]:   connect_retries: 1
+[0m23:13:56.426081 [info ] [MainThread]:   connect_timeout: None
+[0m23:13:56.426195 [info ] [MainThread]:   retry_on_database_errors: False
+[0m23:13:56.426309 [info ] [MainThread]:   retry_all: False
+[0m23:13:56.426421 [info ] [MainThread]:   insecure_mode: False
+[0m23:13:56.426532 [info ] [MainThread]:   reuse_connections: True
+[0m23:13:56.426646 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m23:13:56.426761 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m23:13:56.427078 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m23:13:56.481854 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m23:13:56.521400 [debug] [MainThread]: Using snowflake connection "debug"
+[0m23:13:56.521595 [debug] [MainThread]: On debug: select 1 as id
+[0m23:13:56.521731 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:13:58.820037 [debug] [MainThread]: SQL status: SUCCESS 1 in 2.298 seconds
+[0m23:13:58.822566 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m23:13:58.823508 [info ] [MainThread]: [31m1 check failed:[0m
+[0m23:13:58.824238 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/eduardopizzani/Documents/Ethereum Project/dbt_project.yml> not found
+
+[0m23:13:58.831998 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 2.7670846, "process_in_blocks": "0", "process_kernel_time": 0.268914, "process_mem_max_rss": "162922496", "process_out_blocks": "0", "process_user_time": 1.026142}
+[0m23:13:58.832907 [debug] [MainThread]: Command `dbt debug` failed at 23:13:58.832744 after 2.77 seconds
+[0m23:13:58.833461 [debug] [MainThread]: Connection 'debug' was left open.
+[0m23:13:58.833849 [debug] [MainThread]: On debug: Close
+[0m23:13:58.927382 [debug] [MainThread]: Flushing usage events
+{"data":{"log_version":3,"version":"=2.0.0-preview.154"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019d7005-d319-7932-b867-bf257ea5cf37","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.154","name":"MainReportVersion","pid":92673,"thread":"tokio-runtime-worker","ts":"2026-04-09T02:15:23.179744Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"/Users/eduardopizzani/.local/bin/dbt license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019d7005-d319-7932-b867-bf257ea5cf37","level":"debug","msg":"running dbt-fusion with argumets {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false}","name":"MainReportArgs","pid":92673,"thread":"tokio-runtime-worker","ts":"2026-04-09T02:15:23.179764Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019d7005-d319-7932-b867-bf257ea5cf37","level":"warn","msg":"warning: dbt1000: No project found with active project ID: ","name":"Generic","pid":92673,"thread":"tokio-runtime-worker","ts":"2026-04-09T02:15:23.188055Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019d7005-d319-7932-b867-bf257ea5cf37","level":"debug","msg":"No active cloud project configured, skipping remote license","name":"Generic","pid":92673,"thread":"tokio-runtime-worker","ts":"2026-04-09T02:15:23.189085Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019d7005-d319-7932-b867-bf257ea5cf37","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":92673,"thread":"tokio-runtime-worker","ts":"2026-04-09T02:15:23.189623Z"}}
+{"data":{"completed_at":"2026-04-09T02:15:24.497001Z","elapsed":1.3208880424499512,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019d7005-d319-7932-b867-bf257ea5cf37","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' with 1 warning [1.3s]","name":"CommandCompleted","pid":92673,"thread":"tokio-runtime-worker","ts":"2026-04-09T02:15:24.498851Z"}}
