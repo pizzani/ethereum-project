@@ -15,12 +15,12 @@ case
     else 'other'
 end as transaction_category
 
-from {{ source('eth','transactions') }} t
+from {{ ref('stg_transactions') }} t
 left join (
     SELECT
     transaction_hash,
     count(*) as token_transfer_count
-    from {{ source('eth','token_transfers') }}
+    from {{ ref('stg_token_transfers') }}
     group by transaction_hash
 ) tt
 on t.hash = tt.transaction_hash
