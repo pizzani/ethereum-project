@@ -40,6 +40,9 @@ query-comment:
 # directory as views. These settings can be overridden in the individual model
 # files using the `{{ config(...) }}` macro.
 models:
+  +persist_docs:
+    relation: true
+    columns: true
   eth:
     +materialized: table
     # Config indicated by + and applies to all files under models/example/
