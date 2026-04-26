@@ -1,3 +1,5 @@
 packages:
   - package: get-select/dbt_snowflake_monitoring
     version: 5.6.1
+  - package: dbt-labs/codegen
+    version: 0.14.0
