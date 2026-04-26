@@ -1,3 +1,10 @@
+{{
+    config(
+        tags=['token'],
+        alias= var('token_name_var')~'_activity_per_day'
+    )
+}}
+
 select
     t.date,
     t.token_address,
